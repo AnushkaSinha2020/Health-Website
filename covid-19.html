@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Covid-19 Updates</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <center>
+            <section id="logo" style="background-color: black;">
+                <div id=d1>
+                    <br>
+                    <img class="logo" src="Health.png">
+                    <button class="btn-warning" onclick="back();">Back<span class="glyphicon glyphicon-home"></span></button>
+                    <br><br>
+                </div>
+            </section>
+            <br>
+            <section>
+                <h1>You can use the below screen for Covid-19 updates</h1>
+                <iframe src="https://www.covid19india.org/" height="600px" width="800px"></iframe>
+                <hr>
+                <br><br>
+                <h1>A useful app to detect Covid-19 cases!</h1>
+                <label>Click on the icon<span class="glyphicon glyphicon-hand-down"></span></label><br>
+                <a class="artical" href="https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu" target="_blank">
+                    <img src="aarogya-setu.jpg" height="200px" width="250px">
+                </a>
+                <hr>
+                <br><br>
+                <h1>A chatbot to help you!</h1>
+                <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/6911ef00-e215-427c-a152-cf3d72a60595">
+                </iframe>
+            </section>
+        </center>
+        <br><br>
+        <style>
+            body{
+                background-color: rgb(255, 212, 131);
+            }
+            h1{
+                font-size: 30px;
+                font-weight: bold;
+                text-decoration: underline;
+                text-align: center !important;
+            }
+            h2{
+                font-size: 18px;
+                font-weight: 700;
+                text-align: left !important;
+            }
+            section{
+                border: dotted 6px;
+                margin-top: 10px;
+            }
+            button{
+                float: right;
+                font-size: 30px;
+            }
+            img {
+             transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+            iframe{
+                background-color: white;
+            }
+</style>
+        <script>
+            function back(){
+                window.location="index.html";
+            }
+        </script>
